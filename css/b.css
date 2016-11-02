@@ -1,0 +1,201 @@
+html, body{
+	width: 100%;
+	height:100%;
+	background-color: black;
+
+}
+img {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+}
+.skrollr-container{
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+}
+
+.sections{
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+
+.section{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:10%;
+/*	this height affects how many can fit*/
+
+}
+
+.box {
+	position: relative;
+	top: 40%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%
+	background-color: yellow;
+}
+
+#section1{
+	background-color: blue;
+	height: 5%;
+	top: 0;
+}
+
+#section2{
+	height: 5%;
+	top: 5%;
+}
+
+#section3{
+	height: 5%;
+	top: 10%;
+}
+
+#section4{
+	height: 5%;
+	top: 15%;
+}
+
+#section5{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 20%;
+}
+
+#section6{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 25%;
+}
+#section7{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 30%;
+}
+#section8{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 35%;
+}
+#section9{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 40%;
+}
+#section10{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 45%;
+}
+#section11{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 50%;
+}
+
+#section12{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 55%;
+}
+
+#section13{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 60%;
+}
+
+#section14{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 65%;
+}
+
+#section15{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 70%;
+}
+
+#section16{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 75%;
+}
+
+#section17{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 80%;
+}
+
+#section18{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 85%;
+}
+
+#section19{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 90%;
+}
+
+#section20{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 95%;
+}
+
+#section21{
+	background-color: #FFEA00;
+	height: 5%;
+	top: 100%;
+}
+
+
+.next {
+	position: absolute;
+	bottom: 1%;
+	right: 1%;
+	font-family: sans-serif;
+	font-size: 100px;
+}
+
+#helper{
+	/*display:none;*/
+	position:absolute;
+	left:0;
+	top:0;
+	height:1000%;
+	width:20px;
+}
+
+.marker{
+	width:100%;
+	height:10%;
+	border: 2px solid white;
+}
+
+a {
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	position: fixed;
+	bottom: 50%;
+	right: 20%;
+	font-size: 48px;
+}
+
+
+
+
+
